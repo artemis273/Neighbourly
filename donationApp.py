@@ -1,7 +1,9 @@
-
 clothing = {'winter coats': ['small', 'medium', 'large'], 'fall coats':['small', 'medium', 'large'], 'tops': ['small', 'medium', 'large'], 'bottoms': ['large', 'extra large'],
             'sneakers':['6', '7', '10'], 'boots':['4', '5', '13'], 'socks': ['small', 'large']}
-itemsNeeded = []
+itemsNeeded = {'winter coats': ['large'], 'fall coats':['small', 'medium', 'large'], 'tops': ['small', 'medium', 'large'], 'bottoms': ['large', 'extra large'],
+             'sneakers':['6', '10'], 'boots':['4', '5', '13'], 'socks': ['large']}
+pendingPickup ={'winter coats': ['small', 'medium', 'large'], 'fall coats':['small', 'medium', 'large'], 'tops': ['small', 'medium', 'large'], 'bottoms': ['large', 'extra large'],
+            'sneakers':['6', '7', '10'], 'boots':['4', '5', '13'], 'socks': ['small', 'large']}
 
 def give ():
 
