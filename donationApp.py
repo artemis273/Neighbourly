@@ -48,8 +48,8 @@ def request():
 
      if category == 'winter coats':
         size = input("What size is the coat?")
-        if size in clothing[category]:
-            print('Match Found'
+        for size in clothing[category]:
+            print('Match Found' + size)
 
     if category == 'fall coats':
         size = input("What size is the coat")
